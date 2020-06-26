@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WorkoutSchema = new Schema({
-
+//following structure from seed
     day:{
         type: Date,
         default: Date.now
